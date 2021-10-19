@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package enumkavrami1;
+
+/**
+ *
+ * @author Lenovo
+ */
+enum araba{
+    AUDİ("Siyah"),BMW("Kırmızı"),FIAT("Beyaz");
+    public String renk;
+    araba(String renk){
+        this.renk=renk;
+    }
+    
+}
+public class EnumKavrami1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       for(araba a:araba.values()){
+           System.out.println(a.renk);
+       }
+    }
+    
+}
