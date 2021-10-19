@@ -1,0 +1,6 @@
+polymorphizm.AltSinif2
+polymorphizm.UstSinif$AltSinif
+polymorphizm.UstSinif
+polymorphizm.Polymorphizm
+polymorphizm.AltSinif1
+polymorphizm.UstSinif$AltSinif1
